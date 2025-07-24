@@ -16,7 +16,7 @@
       "description": "Telegram Bot Token",
       "required": true
     },
-    "MONGO_URL": {
+    "MONGO_URI": {
       "description": "MongoDB connection string",
       "required": true
     },
@@ -26,6 +26,10 @@
     },
     "FORCE_JOIN": {
       "description": "Telegram Channel URL for Force Join",
+      "required": false
+    },
+    "LOG_CHANNEL": {
+      "description": "Log Channel ID",
       "required": false
     }
   },
