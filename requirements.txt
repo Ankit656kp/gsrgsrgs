@@ -1,6 +1,5 @@
 pyrogram
 tgcrypto
 motor
-pymongo
 python-dotenv
 fpdf
