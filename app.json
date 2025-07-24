@@ -1,0 +1,37 @@
+{
+  "name": "OSINT Premium Telegram Bot",
+  "description": "Telegram bot with OSINT tools, referral system, and premium features",
+  "repository": "https://github.com/yourusername/yourrepo",
+  "keywords": ["telegram", "pyrogram", "osint", "bot"],
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token",
+      "required": true
+    },
+    "MONGO_URL": {
+      "description": "MongoDB connection string",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Telegram Owner ID",
+      "required": true
+    },
+    "FORCE_JOIN": {
+      "description": "Telegram Channel URL for Force Join",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
